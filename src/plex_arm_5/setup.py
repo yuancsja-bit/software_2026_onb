@@ -30,6 +30,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'translator_node = plex_arm_5.translator_node:main'
         ],
     },
 )
